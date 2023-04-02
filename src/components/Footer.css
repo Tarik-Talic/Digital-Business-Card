@@ -1,0 +1,14 @@
+.socialIcons {
+  height: 70px;
+  background-color: #161619;
+  color: #918e9b;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+}
+
+.socialIcons > * {
+  cursor: pointer;
+}

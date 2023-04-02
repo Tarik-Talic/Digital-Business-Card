@@ -1,0 +1,49 @@
+.profileInfo,
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactInfo {
+  margin: 0 20px;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.profileInfo__image {
+  height: 317px;
+  width: 100%;
+}
+
+.profileInfo__name {
+  font-weight: 700;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.profileInfo__title {
+  color: #f3bf99;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.profileInfo__website {
+  font-size: 10px;
+}
+.contactInfo__email,
+.contactInfo__linkedIn {
+  width: 100px;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contactInfo__email {
+  color: #374151;
+  background-color: #ffffff;
+}
+.contactInfo__linkedIn {
+  background-color: #5093e2;
+}
